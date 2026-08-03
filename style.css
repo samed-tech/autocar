@@ -1,99 +1,17 @@
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
-
-body{
-background:#111;
-color:white;
-}
-
-header{
+.hero-buttons{
+margin-top:25px;
 display:flex;
-justify-content:space-between;
-align-items:center;
-padding:20px;
-background:#1b1b1b;
+justify-content:center;
+gap:15px;
 flex-wrap:wrap;
-gap:10px;
 }
 
-.logo{
-font-size:28px;
-font-weight:bold;
-color:#00aaff;
-}
-
-header input{
-flex:1;
-min-width:180px;
-padding:10px;
-border:none;
-border-radius:8px;
-background:#222;
-color:white;
-}
-
-header button{
-padding:10px 18px;
+.hero-buttons button{
+padding:14px 24px;
 background:#00aaff;
 color:white;
 border:none;
-border-radius:8px;
-cursor:pointer;
-}
-
-.hero{
-text-align:center;
-padding:50px 20px;
-}
-
-.hero h1{
-font-size:38px;
-margin-bottom:10px;
-}
-
-.hero p{
-color:#aaa;
-}
-
-.cars{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:20px;
-padding:20px;
-}
-
-.card{
-background:#1d1d1d;
-border-radius:12px;
-overflow:hidden;
-}
-
-.card img{
-width:100%;
-display:block;
-}
-
-.card h3{
-padding:15px;
-}
-
-.card p{
-padding:0 15px 15px;
-color:#00ff88;
-font-weight:bold;
-}
-
-.card button{
-margin:15px;
-width:calc(100% - 30px);
-padding:12px;
-background:#00aaff;
-color:white;
-border:none;
-border-radius:8px;
+border-radius:10px;
+font-size:16px;
 cursor:pointer;
 }
