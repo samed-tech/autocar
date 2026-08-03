@@ -1,28 +1,46 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AutoCar</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoCar</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
+<body>
 
-<body style="margin:0;background:#111;color:white;font-family:Arial,sans-serif;display:flex;justify-content:center;align-items:center;height:100vh;">
+<header>
+  <div class="logo">🚗 AutoCar</div>
 
-<div style="text-align:center;">
-<h1 style="font-size:60px;">AutoCar</h1>
-<p>Araba Fotoğraf Paylaşım Platformu</p>
+  <input type="text" placeholder="Araç ara...">
 
-<button style="padding:15px 40px;font-size:20px;border:none;border-radius:10px;background:#0A84FF;color:white;">
-Giriş Yap
-</button>
+  <button>Giriş Yap</button>
+</header>
 
-<br><br>
+<section class="hero">
+  <h1>Hayalindeki Aracı Bul</h1>
+  <p>Binlerce ilan arasından istediğini seç.</p>
+</section>
 
-<button style="padding:15px 40px;font-size:20px;border:none;border-radius:10px;background:#444;color:white;">
-Kayıt Ol
-</button>
+<section class="cars">
 
-</div>
+  <div class="card">
+    <img src="https://picsum.photos/400/250" alt="">
+    <h3>BMW M4</h3>
+    <p>4.250.000 TL</p>
+    <button>Favorilere Ekle</button>
+  </div>
+
+  <div class="card">
+    <img src="https://picsum.photos/401/250" alt="">
+    <h3>Mercedes C200</h3>
+    <p>3.100.000 TL</p>
+    <button>Favorilere Ekle</button>
+  </div>
+
+</section>
+
+<script src="script.js"></script>
 
 </body>
 </html>
